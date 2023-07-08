@@ -13,7 +13,7 @@ public class Unit : MonoBehaviour
 
     public void ReceiveHealing()
     {
-        StartCoroutine(Healing(3f, 0.1f, 5, 100));
+        StartCoroutine(Healing(3f, 0.5f, 5, 100));
     }
 
     private IEnumerator Healing(float time, float interval, int hp, int maxHp)
